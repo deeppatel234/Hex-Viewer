@@ -1,0 +1,47 @@
+body {
+    background-color: #F5F5F5;
+}
+.container {
+    overflow: auto;
+    margin: 20px 0;
+    height: 75%;
+}
+table {
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+    font-size: 15px;
+    background-color: #fff;
+}
+table td {
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    height: 35px;
+}
+.selected {
+    background-color: #448AFF;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.w-100 {
+    width: 100%;
+}
+#file-uploader {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#file-path {
+    margin-right: 25px;
+    float: right;
+}
+#file-size {
+    margin-left: 25px;
+    float: left;
+}
